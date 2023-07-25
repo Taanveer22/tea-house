@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tea house</title>
+    <style>
+      .font-manrope{
+        font-family: 'Manrope', sans-serif;
+      }
+    </style>
     <!-- google fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +30,7 @@
   </head>
 
 
-  <body>
+  <body class="font-manrope">
 
     <header class="max-w-screen-lg mx-auto mb-10">
 <!-- banner section -->
@@ -239,16 +244,72 @@
 
       </section>
 
-      
+
 
 
     </main>
 
+   <!-- footer section -->
    
-    <footer>
+    <footer class="bg-gradient-to-r from-[#ff000019] to-[#ff893819] pt-6">
+
+        <section class="max-w-screen-lg mx-auto">
+
+          <div class="flex flex-col lg:flex-row justify-around items-center">
+            <img class="w-12" src="images/cup.png" alt="">
+            <p>
+              <span class="text-base font-medium">Ready to get strated?</span>
+              <button class="btn btn-error">Get Started</button>
+            </p>
+          </div>
+  
+          <div class="footer p-10 text-base-content">
+  
+  
+            <div>
+              <span class="footer-title">Quick Links</span> 
+              <a class="link link-hover">Home</a> 
+              <a class="link link-hover">About Us</a> 
+              <a class="link link-hover">Insurance</a> 
+              <a class="link link-hover">Privacy Policy</a>
+            </div> 
+  
+            <div>
+              <span class="footer-title">Our Service</span> 
+              <a class="link link-hover">Life Insurance</a> 
+              <a class="link link-hover">Car Insurance</a> 
+              <a class="link link-hover">Health Insurance</a> 
+              <a class="link link-hover">House Insurance</a>
+            </div> 
+  
+            <div>
+              <span class="footer-title">Help</span> 
+              <a class="link link-hover">FAQs</a> 
+              <a class="link link-hover">Contact Us</a>
+            </div> 
+  
+            <div>
+              <span class="footer-title">Subscribe to our newsletter</span> 
+              <div class="form-control w-80">
+                <div class="relative">
+                  <input type="text" placeholder="email address" class="bg-transparent border-b-2 border-black outline-none py-3" /> 
+                  <button class="btn bg-red-500 absolute top-0 right-0 rounded-full"> <i class="fa-solid fa-angle-right"></i> </button>
+                </div>
+              </div>
+            </div>
+  
+  
+          </div>
+  
+        
+          <div class="footer-center p-4 text-base-content">
+            <p>© 2027 UIDesign.to - All rights reserved.</p>
+          </div>
+
+
+        </section>
       
     </footer>
-
 
   </body>
 
